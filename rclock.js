@@ -26,7 +26,6 @@ function circleUpdate() {
             var i = 0;
             const tens = Math.floor(s / 10);
             do {
-                "compiled";
                 g.fillCircle(10 + i * 15, 100 + posy, 5);
                 i++;
             } while (i < tens);
